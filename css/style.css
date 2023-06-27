@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(48, 47, 47);
+} 
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 30px;
+    height: 40px;
+    
+}
+
+li {
+    font-family: sans-serif;
+    display:inline-block;
+    margin-left: 0;
+    
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:deeppink; 
+}
+
+/* Header */
+.header1 {
+    background-repeat: no-repeat;
+    background-image: url(/images/header.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 300px;
+    padding-top:90px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.baslik1 {
+    color:deeppink;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: auto;
+    height: 50px;
+}
+
+h1:hover {
+    color:white   
+}
+
+.baslik2 {
+    color:deeppink;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    
+}
+
+.baslik2:hover {
+    color:white;
+}
+
+.box-1 {
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    margin-left: 315px;
+    margin-top: 40px;
+}
+
+.aboutme_baslik {
+    color:deeppink;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-top: 70px;
+}
+
+
+
+p {
+    text-align: justify;
+    font-family: sans-serif;
+    color:white
+    
+}
+
+.header2 {
+    background-repeat: no-repeat;
+    background-image: url(/images/header2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 300px;
+    padding-top:90px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.header3 {
+    background-repeat: no-repeat;
+    background-image: url(/images/about_me.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 200px;
+    padding-top:90px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
