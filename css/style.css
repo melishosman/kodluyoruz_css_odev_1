@@ -1,11 +1,12 @@
+/* body */
 body {
     background-color: rgb(48, 47, 47);
 } 
-
+/* nav */
 nav {
     text-align: center;
 }
-
+/* ul */
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,7 +17,7 @@ ul {
     height: 40px;
     
 }
-
+/* li */
 li {
     font-family: sans-serif;
     display:inline-block;
@@ -24,7 +25,7 @@ li {
     
     
 }
-
+/* li a */
 li a {
     display: block;
     color: white;
@@ -32,12 +33,12 @@ li a {
     padding: 14px 40px;
     text-decoration: none;
 }
-
+/* li a hover */
 li a:hover{
     background-color:deeppink; 
 }
 
-/* Header */
+/* index header1 */
 .header1 {
     background-repeat: no-repeat;
     background-image: url(/images/header.jpg);
@@ -49,7 +50,7 @@ li a:hover{
     margin-top: 30px;
     margin-bottom: 0px;
 }
-
+/* index main baslik1 */
 .baslik1 {
     color:deeppink;
     text-transform: uppercase;
@@ -63,7 +64,7 @@ li a:hover{
 h1:hover {
     color:white   
 }
-
+/* index main baslik2 */
 .baslik2 {
     color:deeppink;
     text-align: center;
@@ -71,11 +72,11 @@ h1:hover {
     margin-bottom: 0px;
     
 }
-
+/* index main baslik2 hover */
 .baslik2:hover {
     color:white;
 }
-
+/* main box */
 .box-1 {
     width: 50%;
     height: auto;
@@ -83,7 +84,7 @@ h1:hover {
     margin-left: 315px;
     margin-top: 40px;
 }
-
+/* aboutme baslik */
 .aboutme_baslik {
     color:deeppink;
     text-align: center;
@@ -92,15 +93,14 @@ h1:hover {
     margin-top: 70px;
 }
 
-
-
+/* paragraf */
 p {
     text-align: justify;
     font-family: sans-serif;
     color:white
     
 }
-
+/* contact header2 */
 .header2 {
     background-repeat: no-repeat;
     background-image: url(/images/header2.jpg);
@@ -112,7 +112,7 @@ p {
     margin-top: 30px;
     margin-bottom: 0px;
 }
-
+/* aboutme header3 */
 .header3 {
     background-repeat: no-repeat;
     background-image: url(/images/about_me.jpg);
